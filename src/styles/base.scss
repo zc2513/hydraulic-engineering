@@ -1,0 +1,59 @@
+// 颜色
+
+.red{
+  background-color: #F00;
+}
+.yellow{
+  background-color: yellow;
+} 
+.gay{
+  background-color: #e2e2e2;
+}
+.fred{
+  color: #f60;
+}
+
+
+// 关于布局  
+.hfull{
+  height: 100%;
+}
+.flcc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h50{
+    height:50px;
+    line-height:50px;
+}
+
+.t-b{//上下布局
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+/* 辅助样式 */ 
+.bold{
+font-weight: 700;
+color: #333;
+}
+.wireb{/*下滑线*/   
+border-bottom: 2px solid #ff5c01 !important;
+} 
+.wire{/*线*/  
+height: 1px; 
+border-bottom: 2px solid #ff5c01 !important;
+} 
+.border{
+border: 1px solid #e6e6e6;
+} 
+.elps{//单行省略号
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap; 
+}
+.elp{
+word-break: break-all;
+} 
