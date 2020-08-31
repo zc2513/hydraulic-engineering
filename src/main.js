@@ -23,6 +23,8 @@ if (process.env.NODE_ENV === 'development') {
 Vue.use(ElementUI, { locale })
 
 Vue.config.productionTip = false
+// echarts
+Vue.prototype.$echarts = require('echarts/lib/echarts')
 
 new Vue({
   el: '#app',
